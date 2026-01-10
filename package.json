@@ -1,0 +1,19 @@
+{
+  "name": "polymarketbot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "gen-creds": "ts-node src/gen_creds.ts"
+  },
+  "dependencies": {
+    "@polymarket/clob-client": "*",
+    "dotenv": "*",
+    "ethers": "^5.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "ts-node": "*",
+    "typescript": "*"
+  }
+}
